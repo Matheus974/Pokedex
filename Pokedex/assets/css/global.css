@@ -1,0 +1,48 @@
+
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: #b161;
+}
+
+.navegador {
+    width: 100vw;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white
+}
+
+.content {
+
+    height: 100vh;
+    width: 100vw;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 1rem;
+   
+}
+
+@media screen and (min-width: 992px) {
+    .content {
+      max-width: 992px;
+      height: auto;
+      margin: 1rem auto;
+    }
+  }
+
+.content h1 {
+
+    margin: 4;
+}
+
+
+
+
+
